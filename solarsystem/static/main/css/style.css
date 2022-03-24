@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    background-image: url('bg/background_index.png');
+    font-family: 'Shadows Into Light Two', cursive;
+
+}
+
+body h1 {
+    text-align: center;
+    color: red;
+    margin: 0px;
+
+}
