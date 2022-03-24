@@ -3,14 +3,113 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 body {
-    background-image: url('bg/background_index.png');
+    margin: 0;
     font-family: 'Shadows Into Light Two', cursive;
 
 }
 
-body h1 {
-    text-align: center;
-    color: red;
-    margin: 0px;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 
 }
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    color: white;
+
+
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+
+.header__logo img{
+    width: 120px;
+    height: 100px;
+
+}
+
+.nav {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+
+.nav__link {
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.75;
+    padding: 10px 10px;
+    transition: opacity .1s linear;
+    border-radius: 15px;
+
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+    border: 2px solid grey;
+    background: black;
+    transition: .2s linear;
+    color: yellow;
+
+
+}
+
+.intro {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 200px;
+    background: url('bg/background_index.jpg') center no-repeat;
+}
+
+.intro-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 130px;
+    margin-bottom: 50px;
+
+}
+
+.intro__inner {
+    max-width: 1170px;
+
+}
+
+.intro-subtitle {
+    text-align: center;
+
+    font-size: 25px;
+
+}
+
