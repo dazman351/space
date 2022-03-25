@@ -78,7 +78,7 @@ body {
     border: 2px solid grey;
     background: black;
     transition: .2s linear;
-    color: yellow;
+    color: white;
 
 
 }
@@ -90,7 +90,7 @@ body {
     justify-content: center;
     height: 750px;
     padding-top: 200px;
-    background: url('bg/background_index.jpg') center no-repeat;
+    background: url('bg/background_index2.jpg') center no-repeat;
 }
 
 .intro-title {
