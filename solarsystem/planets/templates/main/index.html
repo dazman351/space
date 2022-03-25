@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{{ title }}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
-    <script src="https://kit.fontawesome.com/248ac66584.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -32,10 +31,55 @@
             <div class="container">
                 <div class="intro__inner">
                     <h1 class="intro-title">Любители космоса привет! Здесь есть информация
-                    о солнечное системе. Приятного просмотра.</h1>
+                    о солнечной системе. Приятного просмотра.</h1>
                     <p class="intro-subtitle">Здесь вы сможете узнать о планетах солнечной системы и увидеть их.</p>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="features">
+                <div class="features__item">
+                    <img class="features__icon" src="{% static 'logo/question.png' %}" alt="">
+                    <h4 class="features__title">QUESTION</h4>
+                    <div class="features__text">
+                        Что такое космос? Есть ли жизнь на других
+                        планетах? Инопланетяне выдумка или правда?
+                        Все это вы сможете узнать на нашем сайте.
+                    </div>
+                </div>
+                <div class="features__item">
+                    <img class="features__icon" src="{% static 'logo/infinity.png' %}" alt="">
+                    <h4 class="features__title">INFINITY</h4>
+                    <div class="features__text">
+                        Задумывались ли вы о том какого размера состоит весь космос?
+                        Ведь ученые предполагают что он до сих пор расширяется...
+                    </div>
+                </div>
+                <div class="features__item">
+                    <img class="features__icon" src="{% static 'logo/human.png' %}" alt="">
+                    <h4 class="features__title">HUMAN</h4>
+                    <div class="features__text">
+                        Есть ли шансы у нашего человечества выжить и отправиться исследовать
+                        космические просторы? Отправка на Марс уже может стать вполне реальной...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="objects">
+            {% for item in objects %}
+            <div class="object__item">
+                <img class="object__photo" src="{{ item.object_image_main.url }}" alt="error">
+                <div class="object__content">
+                    <div class="object__name">
+                        <b>{{ item.object_name }}</b>
+                    </div>
+                    <div class="object__button">
+                        <a class="button" href="#">Читать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
         </div>
         {% endblock %}
     </main>
