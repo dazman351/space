@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: 'Shadows Into Light Two', cursive;
+    background-color: #ebe0e0;
 
 }
 
@@ -62,7 +63,7 @@ body {
     margin-left: 50px;
     text-decoration: none;
     color: white;
-    opacity: 0.55;
+    opacity: 0.85;
     padding: 10px 10px;
     transition: opacity .1s linear;
     border-radius: 15px;
@@ -77,7 +78,7 @@ body {
 .nav__link:hover {
     opacity: 1;
     transition: .2s linear;
-    color: white;
+    color: #eb5959;
 
 
 }
@@ -102,6 +103,7 @@ body {
 
 .intro__inner {
     max-width: 1170px;
+    color: #ebe0e0;
 
 }
 
@@ -115,7 +117,8 @@ body {
 .features {
     display: flex;
     flex-wrap: wrap;
-    margin: 100px 0;
+    margin: 100px 0 80px 0;
+    border-top: 3px solid #96b1b1;
 
 }
 
@@ -148,10 +151,17 @@ body {
     flex-wrap: wrap;
     margin-bottom: 30px;
 
+}
 
+.object__title {
+    text-align: center;
+    color: black;
+    padding-bottom: 15px;
+    border-top: 3px solid #96b1b1;
 
 
 }
+
 
 .object__item {
     width: 20%;
@@ -209,7 +219,7 @@ body {
     border: 1px solid black;
     border-radius: 20px;
     padding: 3px 6px;
-    color: f1e5e5;
+    color: black;
 
 
 }
