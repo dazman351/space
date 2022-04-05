@@ -235,6 +235,18 @@ body {
 
 }
 
+.bg-items {
+    background-color: yellow;
+
+}
+
+.description {
+    background: url('bg/background_description.jpg') center no-repeat;
+    height: 750px;
+    padding-top: 200px;
+    color: white;
+}
+
 
 
 
