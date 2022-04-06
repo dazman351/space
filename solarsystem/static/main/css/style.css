@@ -242,9 +242,21 @@ body {
 
 .description {
     background: url('bg/background_description.jpg') center no-repeat;
-    height: 750px;
+    height: 825px;
     padding-top: 200px;
     color: white;
+}
+
+.information img {
+    width: 150px;
+
+
+}
+
+.information h1 {
+    text-transform: uppercase;
+
+
 }
 
 

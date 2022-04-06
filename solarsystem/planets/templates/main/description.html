@@ -6,7 +6,14 @@
 
 {% block content %}
 <div class="description">
-    <p>ДАРОВА, завтра сделаю описание каждого обьекта, и стили также сделаем</p>
+    <div class="container">
+        <div class="information">
+            <img src={{ object.object_image_d.url }}>
+            <h3>{{ object.object_introduction }}</h3>
+            <h1>{{ object.object_name }}</h1>
+            <h3>{{ object.object_description }}</h3>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
