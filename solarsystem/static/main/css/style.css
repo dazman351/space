@@ -242,34 +242,38 @@ body {
 
 .description {
     background: url('bg/background_description.jpg') center no-repeat;
-    height: 825px;
+    height: 800px;
+    width: 100%;
     padding-top: 200px;
     color: white;
 }
 
-.information img {
-    width: 150px;
+.information {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.photo img {
+    width: 550px;
+    padding: 50px 0 0 90px;
+
+}
+
+.text {
+    max-width: 400px;
+    padding: 35px 50px 0 0;
+    margin-right: 100px;
 
 
 }
 
-.information h1 {
+
+.text h1 {
     text-transform: uppercase;
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

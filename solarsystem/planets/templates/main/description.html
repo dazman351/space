@@ -8,10 +8,14 @@
 <div class="description">
     <div class="container">
         <div class="information">
-            <img src={{ object.object_image_d.url }}>
-            <h3>{{ object.object_introduction }}</h3>
-            <h1>{{ object.object_name }}</h1>
-            <h3>{{ object.object_description }}</h3>
+            <div class="photo">
+                <img src={{ object.object_image_d.url }}>
+            </div>
+            <div class="text">
+                <p>{{ object.object_introduction }}</p>
+                <h1>{{ object.object_name }}</h1>
+                <p>{{ object.object_description }}</p>
+            </div>
         </div>
     </div>
 </div>
