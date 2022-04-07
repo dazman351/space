@@ -26,20 +26,21 @@ body {
 }
 
 .header {
-    height: 200px;
+    height: 140px;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
+    background: black;
+    border-bottom: 1px solid grey;
 
 }
 
 .header__inner {
     display: flex;
     justify-content: space-between;
-    padding: 35px 0;
-    border-bottom: 1px solid white;
+    padding: 17px 0 0 0;
     align-items: center;
 }
 
@@ -66,8 +67,6 @@ body {
     opacity: 0.85;
     padding: 10px 10px;
     transition: opacity .1s linear;
-    border-radius: 15px;
-
 
 }
 
@@ -249,9 +248,7 @@ body {
 }
 
 .information {
-
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 
 }
