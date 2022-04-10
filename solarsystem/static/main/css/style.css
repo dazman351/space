@@ -328,6 +328,59 @@ body {
 
 }
 
+.footer {
+    height: 160px;
+    width: 100%;
+    position: absolute;
+    background: black;
+    border-top: 3px solid #96b1b1;
+
+
+}
+
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+
+.footer__years p {
+    margin: 0;
+
+}
+
+
+.social__link {
+    margin: 0px 70px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.85;
+    padding: 10px 10px;
+    transition: opacity .1s linear;
+    border: 3px solid black;
+
+}
+
+.social__link:hover {
+    opacity: 1;
+    color: black;
+    border: 3px solid white;
+    background: white;
+    border-radius: 50px;
+    transition: .3s linear;
+
+
+}
+
+.footer__author {
+    padding-top: 10px;
+}
+
+
+
 
 @media (max-width: 1200px) {
 
@@ -427,6 +480,15 @@ body {
 
 }
 
+@media (max-width: 710px) {
+    .social__link {
+        margin: 0px 30px;
+
+    }
+
+
+}
+
 @media (max-width: 655px) {
 
     .intro-title {
@@ -484,6 +546,11 @@ body {
         width: 80%;
         font-size: 14px;
 
+
+    }
+
+    .social__link {
+        margin: 0px 5px;
 
     }
 
