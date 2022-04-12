@@ -227,6 +227,7 @@ body {
 .button:hover {
     background: black;
     color: f1e5e5;
+    transition: .2s linear;
 
 }
 
@@ -382,6 +383,9 @@ body {
 
 
 
+
+
+
 @media (max-width: 1200px) {
 
     .header {
@@ -482,7 +486,7 @@ body {
 
 @media (max-width: 710px) {
     .social__link {
-        margin: 0px 30px;
+        margin: 0px 25px;
 
     }
 
